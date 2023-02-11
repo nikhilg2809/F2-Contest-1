@@ -8,6 +8,15 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
+  let studentsWithMarksOver50 = arr.map(ar => {
+  if (ar.marks > 50) {
+    return ar;
+  }
+  });
+  studentsWithMarksOver50.forEach(ar => {
+  console.log(ar);
+  });
+  
 }
 
 function PrintStudentsbyForEach() {
