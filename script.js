@@ -12,10 +12,18 @@ function PrintStudentswithMap() {
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
+  arr.forEach(arr => {
+  if (arr.marks > 50) {
+    console.log(arr);
+  }
+});
 }
 
 function addData() {
   //Write your code here, just console.log
+  let newStudent = {id:4,name:"susan",age:"20",marks:45};
+  arr.push(newStudent);
+  console.log(arr);
 }
 
 function removeFailedStudent() {
